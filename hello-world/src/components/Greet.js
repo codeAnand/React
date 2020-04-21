@@ -5,6 +5,7 @@ import React from 'react'
 // } 
 const Greet = (props) => { 
     console.log(props)
+    const {name, heroname} = props
 
     return (
         <div>
